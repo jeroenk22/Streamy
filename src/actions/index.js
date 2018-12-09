@@ -10,10 +10,10 @@ import {
   EDIT_STREAM
 } from './types';
 
-export const signIn = userId => {
+export const signIn = (userId, userName) => {
   return {
     type: SIGN_IN,
-    payload: userId
+    payload: { userId, userName }
   };
 };
 
