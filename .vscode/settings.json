@@ -1,0 +1,7 @@
+{
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.formatOnSave": true
+}
