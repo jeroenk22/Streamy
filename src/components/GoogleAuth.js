@@ -50,15 +50,15 @@ class GoogleAuth extends React.Component {
         .getBasicProfile()
         .getName();
       return (
-        <button onClick={this.onSignOutClick} className='ui red google button'>
-          <i className='google icon' />
+        <button onClick={this.onSignOutClick} className="ui red google button">
+          <i className="google icon" />
           Sign Out {userName}
         </button>
       );
     } else {
       return (
-        <button onClick={this.onSignInClick} className='ui green google button'>
-          <i className='google icon' />
+        <button onClick={this.onSignInClick} className="ui green google button">
+          <i className="google icon" />
           Sign In with Google
         </button>
       );
